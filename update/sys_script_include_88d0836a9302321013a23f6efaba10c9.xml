@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.mbd_Utils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>mbd_Utils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var mbd_Utils = Class.create();
+mbd_Utils.prototype = {
+	
+    initialize: function() {
+    },
+
+    type: 'mbd_Utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-29 11:34:25</sys_created_on>
+        <sys_id>88d0836a9302321013a23f6efaba10c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mbd_Utils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_88d0836a9302321013a23f6efaba10c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-29 11:34:25</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>88d0836a9302321013a23f6efaba10c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-29 11:34:25</sys_created_on>
+        <sys_id>c7e0876a9302321013a23f6efaba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-29 11:34:25</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
